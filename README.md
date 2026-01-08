@@ -117,6 +117,22 @@ for resize events, we intercept `process.on('SIGWINCH', ...)` and debounce the h
 
 bottom line: smooth terminal, no lag, no memory bloat. it just works.
 
+## changelog
+
+### v1.0.1 (2025-01-08)
+- **FIXED: typing issue** - keystrokes were getting lost because the fix was intercepting stdin echoes
+  - now detects stdin echo writes (single chars, backspace, arrow keys) and passes them through unmodified
+  - added typing cooldown detection - clears are deferred during active typing
+  - periodic clears now use `setImmediate` to not block the event loop
+  - added stdin tracking to properly detect user input activity
+- new config option: `typingCooldownMs` (default 500ms) - how long to wait after typing before allowing clears
+
+### v1.0.0 (2025-01-08)
+- initial release
+- scrollback clearing after 500 renders or 60 seconds
+- SIGWINCH debouncing for tmux/screen users
+- enhanced /clear command to actually clear scrollback
+
 ## known issues
 
 - some old terminals don't support `\x1b[3J` but that's pretty rare nowadays

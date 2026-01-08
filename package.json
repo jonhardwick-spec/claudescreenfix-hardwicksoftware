@@ -1,6 +1,6 @@
 {
   "name": "claudescreenfix-hardwicksoftware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fixes the scroll glitch in claude code cli - unbounded scrollback, resize thrashing, all that bs",
   "main": "index.cjs",
   "bin": {
