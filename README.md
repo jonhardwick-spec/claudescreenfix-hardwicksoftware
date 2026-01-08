@@ -1,6 +1,18 @@
-# claudescreenfix-hardwicksoftware
+# claudescreenfix-hardwicksoftware | [justcalljon.pro](https://justcalljon.pro/)
 
 yo this fixes the scroll glitch that's been cooking everyone using claude code. you know the one - after like 30 minutes your terminal starts lagging, scrolling takes forever, and eventually the whole thing just dies.
+
+## shoutout to the big dogs who should probably just fix this themselves
+
+hey [@anthropics](https://github.com/anthropics) yall made a sick product but this scrollback thing been cooking people for months lol. maybe steal this fix idc
+
+- [@karpathy](https://github.com/karpathy) - andrej you literally built tesla autopilot you could prob fix this in 5 min
+- [@gdb](https://github.com/gdb) - greg brockman openai president, yall next with codex btw dont make the same mistake
+- [@yoheinakajima](https://github.com/yoheinakajima) - babyagi goat, agent builders been struggling with this
+- [@lllyasviel](https://github.com/lllyasviel) - controlnet legend, sd-forge too, you know terminal pain
+- [@sama](https://github.com/sama) - sam altman if you even code anymore lmao
+
+real talk tho [@anthropics](https://github.com/anthropics) just add `\x1b[3J` to your clear command and debounce SIGWINCH. thats literally it. im not even asking for credit just fix it for everyone 💀
 
 ## what's the problem
 
