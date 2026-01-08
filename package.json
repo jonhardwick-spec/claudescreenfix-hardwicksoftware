@@ -1,0 +1,39 @@
+{
+  "name": "claudescreenfix-hardwicksoftware",
+  "version": "1.0.0",
+  "description": "fixes the scroll glitch in claude code cli - unbounded scrollback, resize thrashing, all that bs",
+  "main": "index.cjs",
+  "bin": {
+    "claude-fixed": "./bin/claude-fixed.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "claude",
+    "terminal",
+    "fix",
+    "scroll",
+    "ink",
+    "cli",
+    "glitch",
+    "performance"
+  ],
+  "author": "jonhardwick-spec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonhardwick-spec/claudescreenfix-hardwicksoftware"
+  },
+  "bugs": {
+    "url": "https://github.com/jonhardwick-spec/claudescreenfix-hardwicksoftware/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.cjs",
+    "loader.cjs",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
