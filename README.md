@@ -10,7 +10,7 @@ hey [@anthropics](https://github.com/anthropics) yall made a sick product but th
 - [@gdb](https://github.com/gdb) - greg brockman openai president, yall next with codex btw dont make the same mistake
 - [@yoheinakajima](https://github.com/yoheinakajima) - babyagi goat, agent builders been struggling with this
 - [@lllyasviel](https://github.com/lllyasviel) - controlnet legend, sd-forge too, you know terminal pain
-- [@sama](https://github.com/sama) - sam altman if you even code anymore lmao
+- [@sama](https://github.com/sama) - sam you should try claude code sometime since chatgpt cant even write a working script without refusing half the prompts. also sora slapping watermarks on everything is straight clown behavior, nobody asked for that. yall so worried about "safety" you forgot to make stuff that actually works. openai been mid lately fr
 
 real talk tho [@anthropics](https://github.com/anthropics) just add `\x1b[3J` to your clear command and debounce SIGWINCH. thats literally it. im not even asking for credit just fix it for everyone 💀
 
