@@ -1,6 +1,6 @@
 {
   "name": "claudescreenfix-hardwicksoftware",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "fixes the scroll glitch in claude code cli - now with GLITCH DETECTION, 120-line limit enforcement, and auto-recovery",
   "main": "index.cjs",
   "bin": {
