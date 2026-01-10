@@ -4,7 +4,7 @@
   "description": "fixes the scroll glitch in claude code cli - now with GLITCH DETECTION, 120-line limit enforcement, and auto-recovery",
   "main": "index.cjs",
   "bin": {
-    "claude-fixed": "./bin/claude-fixed.js"
+    "claude-fixed": "bin/claude-fixed.js"
   },
   "scripts": {
     "test": "node bin/claude-fixed.js --version",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonhardwick-spec/claudescreenfix-hardwicksoftware"
+    "url": "git+https://github.com/jonhardwick-spec/claudescreenfix-hardwicksoftware.git"
   },
   "bugs": {
     "url": "https://github.com/jonhardwick-spec/claudescreenfix-hardwicksoftware/issues"
