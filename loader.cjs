@@ -6,7 +6,7 @@
  * use like: node --require claudescreenfix-hardwicksoftware/loader.cjs $(which claude)
  *
  * this auto-installs the fix before claude code even starts
- * no code changes needed in claude itself
+ * you don't need to change any code in claude itself - it just works
  */
 
 const fix = require('./index.cjs');

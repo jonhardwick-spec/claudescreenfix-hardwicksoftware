@@ -1,12 +1,14 @@
 {
   "name": "claudescreenfix-hardwicksoftware",
-  "version": "1.0.1",
-  "description": "fixes the scroll glitch in claude code cli - unbounded scrollback, resize thrashing, all that bs",
+  "version": "2.0.0",
+  "description": "fixes the scroll glitch in claude code cli - now with GLITCH DETECTION, 120-line limit enforcement, and auto-recovery",
   "main": "index.cjs",
   "bin": {
     "claude-fixed": "./bin/claude-fixed.js"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "node -e \"const fix = require('./index.cjs'); fix.install(); console.log(fix.getStats());\""
+  },
   "keywords": [
     "claude",
     "terminal",
@@ -15,7 +17,10 @@
     "ink",
     "cli",
     "glitch",
-    "performance"
+    "performance",
+    "glitch-detection",
+    "recovery",
+    "120-line-limit"
   ],
   "author": "jonhardwick-spec",
   "license": "MIT",
@@ -32,6 +37,7 @@
   "files": [
     "index.cjs",
     "loader.cjs",
+    "glitch-detector.cjs",
     "bin/",
     "README.md",
     "LICENSE"
